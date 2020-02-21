@@ -24,3 +24,8 @@ body{
     border-bottom-style: groove;
     border-bottom-color: rebeccapurple;
 }
+
+.day{
+    text-align: center;
+}
+    
