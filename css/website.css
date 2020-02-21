@@ -7,16 +7,16 @@ body{
 .special#special1{
     background-color: aqua;
     font-family: cursive;
-
-.day-box
+}
+.day-box{
     padding: 10px;
     margin: 10px;
     border-top-style: groove;
     border-top-color: rebeccapurple;
     border-bottom-style: groove;
     border-bottom-color: rebeccapurple;
-    
-.day-box PREP
+}
+.day-box PREP{
     padding: 10px;
     margin: 10px;
     border-top-style: groove;
