@@ -16,13 +16,9 @@ body{
     border-bottom-style: groove;
     border-bottom-color: rebeccapurple;
 }
-.day-box PREP{
-    padding: 10px;
-    margin: 10px;
-    border-top-style: groove;
-    border-top-color: rebeccapurple;
-    border-bottom-style: groove;
-    border-bottom-color: rebeccapurple;
+.header h1{
+    text-align: center;
+    
 }
 
 .day{
