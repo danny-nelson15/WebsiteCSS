@@ -34,6 +34,15 @@ div.day{
     border-radius: 5px;
     border: 2px solid rebeccapurple;
 }
+
+.lab-box{
+    padding: 5px;
+    font-size: large;
+    font-family: sans-serif;
+    border-radius: 5px;
+    border: 2px solid lightseagreen;
+}
+
 .day-box PREP reading-box{
     padding: 5px;
     font-size: large;
