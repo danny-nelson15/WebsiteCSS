@@ -73,7 +73,7 @@ div.day{
 .header .person_info span.username{
     position: fixed;
     top: 15%;
-    left: 16%;
+    left: 20%;
     font-size: 24px;
     border: 7px solid rebeccapurple;
     font-family: 'Monsterrat';
