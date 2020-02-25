@@ -62,7 +62,7 @@ div.day{
     font-family: 'Monsterrat';
     a:hover: font-size: 36px;
     
-.header .person-info img{
+.header .person_info img{
     width: 15%;
     height: 15%;
 }
