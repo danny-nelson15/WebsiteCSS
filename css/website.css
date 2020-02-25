@@ -13,10 +13,7 @@ body{
 .day-box{
     padding: 10px;
     margin: 10px;
-    border-top-style: groove;
-    border-top-color: rebeccapurple;
-    border-bottom-style: groove;
-    border-bottom-color: rebeccapurple;
+
 }
 h1{
     position: relative;
@@ -25,34 +22,84 @@ h1{
 }
 
 div.day{
-    text-align: center;
     padding: 2px;
     font-weight: bold;
     font-size: large;
 }
-.reading-box{
-    padding: 5px;
-    font-size: large;
-    font-family: sans-serif;
-    border-radius: 5px;
-    border: 2px solid rebeccapurple;
-}
 
-.lab-box{
-    padding: 5px;
-    font-size: large;
-    font-family: sans-serif;
-    border-radius: 5px;
-    border: 2px solid lightseagreen;
+.daybox PREP day{
+    float: left;
 }
 
 .day-box PREP reading-box{
-    padding: 5px;
+    float: left;
+    width: 75%;
+    clear: both;
+    padding: 10px;
+    border: 2px solid rgb(30, 144,255);
+    border-radius: 15px;
+    background-color: antiquewhite;
     font-size: large;
     font-family: sans-serif;
-    border-radius: 5px;
-    border: 2px solid indianred;
 }
+
+.day-box PREP prep-box{
+    clear: both;
+    font-size: large;
+    font-family: sans-serif;
+}
+
+.day-box current{
+    clear: both;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-top-color: rgb(0,0,200,.8);
+    height: 200px;
+    border-bottom-color: rgb(0,0,200,.8);
+}
+  
+.day-box current day{
+    float: right;
+    clear: both;
+    padding: 5px;
+}
+
+.day-box current reading{
+    float: right;
+    width: 75%;
+    clear: both;
+    border: 2px solid antiquewhite;
+    background-color: rgb(30,144,255,0.75);
+    padding: 10px;
+    border-radius: 15px;
+    font-size: large;
+    font-family: sans-serif;
+}
+
+.day-box current prep-box{
+    clear:both;
+    font-size: large;
+    font-family: sans-serif;
+}
+
+.day-box current lab.box{
+    float: right;
+    width: 75%;
+    clear: both;
+    border: 2px solid antiquewhite;
+    background-color: rgb(30,144,255,0.75);
+    padding: 10px;
+    border-radius: 15px;
+    font-size: large;
+    font-family: sans-serif;
+}
+
+div.day-box{
+    clear:both;
+}
+
+
+
 
 .header .nav{  
     padding: 10px;
