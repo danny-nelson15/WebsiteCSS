@@ -1,6 +1,4 @@
-<style>
-@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
-</style>
+
 
 
 body{
@@ -56,6 +54,7 @@ div.day{
 }
 
 .header .nav{
+    @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
     left: 50%;  
     padding: 10px;
     border: 10px solid rebeccapurple;
