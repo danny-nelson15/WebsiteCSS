@@ -93,3 +93,6 @@ table{
 font-size: 150%;
 color: yellow;
 }
+.header .nav a{
+ border: 5px solid indianred;   
+}
