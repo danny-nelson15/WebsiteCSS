@@ -55,7 +55,7 @@ div.day{
     border: 2px solid indianred;
 }
 img{
- max-width: 10%;
+    width: 10%;
     height: 10%;
 }
 .nav{
