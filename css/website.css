@@ -85,3 +85,7 @@ body table tbody img{
     width: 15%;
 
 }
+table{
+    border: 3px solid indianred;
+    padding 2px;
+}
