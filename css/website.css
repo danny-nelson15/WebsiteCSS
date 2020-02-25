@@ -91,4 +91,5 @@ table{
 }
 .header .nav a:hover, .header .nav a:active {
 font-size: 150%;
+color: yellow;
 }
