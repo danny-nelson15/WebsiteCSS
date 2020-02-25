@@ -69,8 +69,8 @@ div.day{
     
 
 
-span .username{
+.header .person_info .username{
     font-size: 24px;
     border: 7px solid rebeccapurple;
-    font-family: 'Monsterrat',;
+    font-family: 'Monsterrat';
 } 
