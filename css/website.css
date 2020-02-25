@@ -71,7 +71,7 @@ div.day{
 
 
 .header .person_info span.username{
-    position: fixed;
+    position: relative;
     top: 15%;
     left: 20%;
     font-size: 24px;
