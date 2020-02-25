@@ -78,7 +78,7 @@ div.day{
     font-family: 'Monsterrat';
 } 
 
-body > table > tbody > tr:nth-child(2) > td:nth-child(1) > div img{
+body table tbody tr:nth-child(2) td:nth-child(1) div img{
     height: 15%;
     width: 15%;
 
