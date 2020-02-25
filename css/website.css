@@ -55,16 +55,14 @@ div.day{
     border: 2px solid indianred;
 }
 
-.header .nav{
-   
-    left: 50%;  
+.header .nav{  
     padding: 10px;
     border: 10px solid rebeccapurple;
     font-size: 24px;
     font-family: 'Monsterrat';
 
     
-.header .person_info{
+.header .person_info img{
     width: 15%;
     height: 15%;
 }
