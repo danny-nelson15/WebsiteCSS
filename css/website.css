@@ -89,6 +89,6 @@ table{
     border: 3px solid indianred;
     padding 2px;
 }
-.head .nav:hover{
+a:hover{
 font-size: 36px;
 }
