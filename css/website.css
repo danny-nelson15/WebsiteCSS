@@ -19,7 +19,8 @@ body{
     border-bottom-color: rebeccapurple;
 }
 .header h1{
-    text-align: center;
+    position: relative;
+    left: 50%;
     
 }
 
