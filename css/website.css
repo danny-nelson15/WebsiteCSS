@@ -71,7 +71,8 @@ div.day{
 
 }
 .head span .username{
-    right: 50%;
+    margin-right: auto;
+    margin-left: auto;
     font-size: 24px;
     padding: 5px;
     border: 5px solid rebeccapurple;
