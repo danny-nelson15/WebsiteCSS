@@ -94,8 +94,8 @@ font-size: 150%;
 color: red;
 }
 .header .nav a{
- padding 3px;
- border: 5px solid indianred;   
+ padding: 20px;
+   
 }
 .header .partners .person_info a{
     border: 10px solid rebeccapurple;
