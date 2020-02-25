@@ -77,3 +77,9 @@ div.day{
     border: 7px solid rebeccapurple;
     font-family: 'Monsterrat';
 } 
+
+body > table > tbody > tr:nth-child(2) > td:nth-child(1) > div img{
+    height: 15%;
+    width: 15%;
+
+}
