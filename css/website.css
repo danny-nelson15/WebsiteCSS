@@ -22,7 +22,7 @@ h1{
 }
 
 div.day{
-    padding: 2px;
+    padding: 5px;
     font-weight: bold;
     font-size: large;
 }
@@ -36,6 +36,7 @@ div.day{
 
 .day-box.PREP .day{
     float: left;
+    padding: 5px;
 }
 
 .day-box.PREP .reading-box{
@@ -132,19 +133,7 @@ div.day{
     font-family: sans-serif;
 }
 
-
-body:nth-last-child(7){
-    border-top-style: solid;
-    border-bottom-style: solid;
-    border-top-color: rgb(0,0,200,.8);
-    border-bottom-color: rgb(0,0,200,.8);
-}
-
-body:nth-last-child(7) .day{
-    float: left;
-}
-
-body:nth-last-child(7) .reading-box{
+.day-box.COMPLETED .lab-box{
     float: left;
     width: 75%;
     clear: both;
@@ -156,8 +145,46 @@ body:nth-last-child(7) .reading-box{
     font-family: sans-serif;
 }
 
-body:nth-last-child(7) .prep-box{
+
+body:nth-last-child(3){
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-top-color: rgb(0,0,200,.8);
+    border-bottom-color: rgb(0,0,200,.8);
+}
+
+body:nth-last-child(3) .day{
+    float: right;
     clear: both;
+    padding: 5px;
+}
+
+body:nth-last-child(3) .reading-box{
+    float: right;
+    width: 75%;
+    clear: both;
+    border: 2px solid antiquewhite;
+    background-color: rgb(30,144,255,0.75);
+    padding: 10px;
+    border-radius: 15px;
+    font-size: large;
+    font-family: sans-serif;
+}
+
+body:nth-last-child(3) .prep-box{
+    clear: both;
+    font-size: large;
+    font-family: sans-serif;
+}
+
+body:nth-last-child(3) .lab-box{
+    float: right;
+    width: 75%;
+    clear: both;
+    border: 2px solid antiquewhite;
+    background-color: rgb(30,144,255,0.75);
+    padding: 10px;
+    border-radius: 15px;
     font-size: large;
     font-family: sans-serif;
 }
