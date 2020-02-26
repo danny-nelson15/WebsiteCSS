@@ -147,20 +147,20 @@ div.day{
 }
 
 
-body:nth-last-child(3){
+div:nth-last-child(3){
     border-top-style: solid;
     border-bottom-style: solid;
     border-top-color: rgb(0,0,200,.8);
     border-bottom-color: rgb(0,0,200,.8);
 }
 
-body:nth-last-child(3) .day{
+div:nth-last-type(2n) .day{
     float: right;
     clear: both;
     padding: 5px;
 }
 
-body:nth-last-child(3) .reading-box{
+div:nth-last-type(2n) .reading-box{
     float: right;
     width: 75%;
     clear: both;
@@ -172,13 +172,13 @@ body:nth-last-child(3) .reading-box{
     font-family: sans-serif;
 }
 
-body:nth-last-child(3) .prep-box{
+div:nth-last-type(2n) .prep-box{
     clear: both;
     font-size: large;
     font-family: sans-serif;
 }
 
-body:nth-last-child(3) .lab-box{
+div:nth-last-type(2n) .lab-box{
     float: right;
     width: 75%;
     clear: both;
