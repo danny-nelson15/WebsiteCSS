@@ -27,9 +27,13 @@ div.day{
     font-size: large;
 }
     
-    
-    
-    
+.day-box.PREP{
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-top-color: rgb(0,0,200,.8);
+    border-bottom-color: rgb(0,0,200,.8);
+}
+
 .day-box.PREP .day{
     float: left;
 }
