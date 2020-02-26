@@ -154,7 +154,7 @@ div:nth-last-child(100){
     border-bottom-color: rgb(0,0,200,.8);
 }
 
-body > nth-last-type(even) .day{
+body > .day-box.COMPLETED:nth-last-type(even) .day{
     float: right;
     clear: both;
     padding: 5px;
