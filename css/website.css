@@ -101,6 +101,38 @@ div.day{
     font-family: sans-serif;
 }
 
+
+
+.day-box.COMPLETED{
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-top-color: rgb(0,0,200,.8);
+    border-bottom-color: rgb(0,0,200,.8);
+}
+
+.day-box.COMPLETED .day{
+    float: left;
+}
+
+.day-box.COMPLETED .reading-box{
+    float: left;
+    width: 75%;
+    clear: both;
+    padding: 10px;
+    border: 2px solid rgb(30, 144,255);
+    border-radius: 15px;
+    background-color: antiquewhite;
+    font-size: large;
+    font-family: sans-serif;
+}
+
+.day-box.COMPLETED .prep-box{
+    clear: both;
+    font-size: large;
+    font-family: sans-serif;
+}
+
+
 body:nth-last-child(7){
     border-top-style: solid;
     border-bottom-style: solid;
@@ -131,10 +163,28 @@ body:nth-last-child(7) .prep-box{
 }
 
 
-
 div.day-box{
     clear:both;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
