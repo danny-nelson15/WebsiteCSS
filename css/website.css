@@ -57,11 +57,11 @@ div.day{
     
     
     
-.day-box_PREP .day{
+.day-box.PREP .day{
     float: left;
 }
 
-.day-box_PREP .reading-box{
+.day-box.PREP .reading-box{
     float: left;
     width: 75%;
     clear: both;
@@ -73,13 +73,13 @@ div.day{
     font-family: sans-serif;
 }
 
-.day-box_PREP .prep-box{
+.day-box.PREP .prep-box{
     clear: both;
     font-size: large;
     font-family: sans-serif;
 }
 
-.day-box_current{
+.day-box.current{
     clear: both;
     border-top-style: solid;
     border-bottom-style: solid;
@@ -88,13 +88,13 @@ div.day{
     border-bottom-color: rgb(0,0,200,.8);
 }
   
-.day-box_current .day{
+.day-box.current .day{
     float: right;
     clear: both;
     padding: 5px;
 }
 
-.day-box_current .reading-box{
+.day-box.current .reading-box{
     float: right;
     width: 75%;
     clear: both;
@@ -106,13 +106,13 @@ div.day{
     font-family: sans-serif;
 }
 
-.day-box_current .prep-box{
+.day-box.current .prep-box{
     clear:both;
     font-size: large;
     font-family: sans-serif;
 }
 
-.day-box_current .lab-box{
+.day-box.current .lab-box{
     float: right;
     width: 75%;
     clear: both;
