@@ -52,7 +52,7 @@ div.day{
     font-family: sans-serif;
 }
 
-.day-box.current{
+.day-box.CURRENT{
     clear: both;
     border-top-style: solid;
     border-bottom-style: solid;
@@ -61,13 +61,13 @@ div.day{
     border-bottom-color: rgb(0,0,200,.8);
 }
   
-.day-box.current .day{
+.day-box.CURRENT .day{
     float: right;
     clear: both;
     padding: 5px;
 }
 
-.day-box.current .reading-box{
+.day-box.CURRENT .reading-box{
     float: right;
     width: 75%;
     clear: both;
@@ -79,13 +79,13 @@ div.day{
     font-family: sans-serif;
 }
 
-.day-box.current .prep-box{
+.day-box.CURRENT .prep-box{
     clear:both;
     font-size: large;
     font-family: sans-serif;
 }
 
-.day-box.current .lab-box{
+.day-box.CURRENT .lab-box{
     float: right;
     width: 75%;
     clear: both;
