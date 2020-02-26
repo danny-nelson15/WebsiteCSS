@@ -27,6 +27,36 @@ div.day{
     font-size: large;
 }
 
+
+
+
+
+.day-box_PREP:nth-child(1){
+    float: left;
+}
+
+.day-box_PREP:nth-child(2){
+    float: left;
+    width: 75%;
+    clear: both;
+    padding: 10px;
+    border: 2px solid rgb(30, 144,255);
+    border-radius: 15px;
+    background-color: antiquewhite;
+    font-size: large;
+    font-family: sans-serif;
+}
+
+.day-box_PREP:nth-child(3){
+    clear: both;
+    font-size: large;
+    font-family: sans-serif;
+    
+    
+    
+    
+    
+    
 .day-box_PREP .day{
     float: left;
 }
@@ -64,7 +94,7 @@ div.day{
     padding: 5px;
 }
 
-.day-box_current .reading{
+.day-box_current .reading-box{
     float: right;
     width: 75%;
     clear: both;
