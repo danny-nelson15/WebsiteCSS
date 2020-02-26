@@ -109,7 +109,7 @@ div.day{
     border-bottom-style: solid;
     border-top-color: rgb(0,0,200,.8);
     border-bottom-color: rgb(0,0,200,.8);
-    height: 175px;
+    height: 190px;
 }
 
 .day-box.COMPLETED .day{
@@ -147,20 +147,20 @@ div.day{
 }
 
 
-div:nth-last-child(3){
+div:nth-last-child(100){
     border-top-style: solid;
     border-bottom-style: solid;
     border-top-color: rgb(0,0,200,.8);
     border-bottom-color: rgb(0,0,200,.8);
 }
 
-div:nth-last-type(2n) .day{
+div:nth-last-type(100) .day{
     float: right;
     clear: both;
     padding: 5px;
 }
 
-div:nth-last-type(2n) .reading-box{
+div:nth-last-type(100) .reading-box{
     float: right;
     width: 75%;
     clear: both;
@@ -172,13 +172,13 @@ div:nth-last-type(2n) .reading-box{
     font-family: sans-serif;
 }
 
-div:nth-last-type(2n) .prep-box{
+div:nth-last-type(100) .prep-box{
     clear: both;
     font-size: large;
     font-family: sans-serif;
 }
 
-div:nth-last-type(2n) .lab-box{
+div:nth-last-type(100) .lab-box{
     float: right;
     width: 75%;
     clear: both;
