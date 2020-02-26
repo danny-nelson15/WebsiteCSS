@@ -154,10 +154,11 @@ div:nth-last-child(100){
     border-bottom-color: rgb(0,0,200,.8);
 }
 
-body > .day-box.COMPLETED:nth-last-type(even) .day{
+.day-box.COMPLETED:nth-last-type(even) .day{
     float: right;
     clear: both;
     padding: 5px;
+    color: aliceblue;
 }
 
 div:nth-last-type(100) .reading-box{
