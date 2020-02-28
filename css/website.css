@@ -3,6 +3,10 @@
 
 body{
     background-color: #ffe6b3;
+    background-image: url("https://upload.wikimedia.org/wikipedia/en/6/61/Centrecollegeseal.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    
     
 }
 
@@ -270,3 +274,6 @@ font-size: 150%;
     color: red;
     
 }
+
+
+    
