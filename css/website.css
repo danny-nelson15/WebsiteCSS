@@ -227,7 +227,8 @@ div.day-box{
     font-family: 'Monsterrat';
     background-image: url("https://upload.wikimedia.org/wikipedia/en/6/61/Centrecollegeseal.png");
     background-repeat: no-repeat;
-    background-size: 30px;
+    background-size: 50px;
+    background-position: center;
 
 }
 .header .person_info img{
