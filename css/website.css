@@ -272,7 +272,12 @@ font-size: 150%;
     
 }
   
+.header .nav a:hover, .header .nav a:active {
+	font-size: 150%;
+	color: red;
+	}
 
-}
+
+
 
 
