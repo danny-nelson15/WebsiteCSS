@@ -283,4 +283,10 @@ div#special1.special{
 
 
 }
+.header .nav a:hover, .header .nav a:dropdown-content {
+    background-color: red;
+    display: block;
+    
+
+}
     
