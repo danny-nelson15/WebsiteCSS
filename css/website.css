@@ -266,6 +266,7 @@ color: red;
 }
 .header .nav a{
  padding: 20px;
+ display: none;
  
 }
 .header .partners .person_info a{
@@ -284,7 +285,7 @@ div#special1.special{
 }
 .header .nav a:hover, .header .nav a:hover {
     background-color: red;
-    display: none;
+    display: block;
     
 
 }
