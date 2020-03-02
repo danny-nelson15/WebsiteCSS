@@ -219,6 +219,7 @@ div.day-box{
 
 
 .header .nav{ 
+    border: 1px solid black;
     font-size: 30px;
     padding: 30px;
     font-family: 'Monsterrat';
