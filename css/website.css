@@ -226,7 +226,7 @@ div.day-box{
     font-size: 24px;
     font-family: 'Monsterrat';
     background-image: url("https://www.shareicon.net/data/2016/12/12/862833_close_512x512.png"), url("https://tse2.mm.bing.net/th?id=OIP.Iqo2Kv7fe0hLz2eNgdBnjQHaHa&pid=Api&P=0&w=300&h=300"), url("https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Tokyoship_Home_icon.svg/1024px-Tokyoship_Home_icon.svg.png"), url("https://cdn3.iconfinder.com/data/icons/blog-and-social-media-icons/512/Group_of_People-512.png"), url("https://cdn3.iconfinder.com/data/icons/aviation-2/500/Aviation_start_sprint-512.png"), url("https://image.freepik.com/free-icon/book-opened-symbol_318-56725.jpg"), url("https://cdn0.iconfinder.com/data/icons/education-15/500/result-512.png");
-    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+    background-repeat: no-repeat, repeat, repeat, repeat, repeat, repeat, repeat;
     background-position: 50% 5%, 50% 10%, 50% 15%, 50% 20%, 50% 25%, 50% 30%, 50% 65%;
     background-size: 50px, 50px, 50px, 50px, 50px, 50px, 50px;
    
