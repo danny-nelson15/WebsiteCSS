@@ -258,9 +258,10 @@ table{
 }
 
 .header .nav a{
- overflow: hidden;
- display: none;
- height: 10px;
+    overflow: hidden;
+    display: none;
+    height: 600px;
+    width: 50px;
  
 }
 .header .partners .person_info a{
@@ -279,6 +280,7 @@ div#special1.special{
 }
 .header .nav a:hover, .header .nav a:active {
    height: 25px; 
+   width: 50px;
     
 
 }
