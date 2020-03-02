@@ -416,8 +416,11 @@ opacity: 0;
 	display: block;
 }
 
-body div{
+.w3-animate-zoom{
 	animation:animatezoom 0.6s;
-	animatezoom (from(transform:scale(0)) to (transform:scale(1)));
+	
+}
+@keyframes animatezoom{
+	from{transform:scale(0)}to{transform:scale(1)}
 }
 
