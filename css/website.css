@@ -266,6 +266,15 @@ color: red;
 }
 .header .nav a{
  padding: 20px;
+  background-image: url("https://upload.wikimedia.org/wikipedia/en/6/61/Centrecollegeseal.png");
+    background-repeat: no-repeat;
+    background-size: 50px;
+     background-image: url("https://upload.wikimedia.org/wikipedia/en/6/61/Centrecollegeseal.png");
+    background-repeat: no-repeat;
+    background-size: 50px;
+     background-image: url("https://upload.wikimedia.org/wikipedia/en/6/61/Centrecollegeseal.png");
+    background-repeat: no-repeat;
+    background-size: 50px;
    
 }
 .header .partners .person_info a{
