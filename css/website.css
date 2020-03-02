@@ -274,12 +274,8 @@ font-size: 150%;
 
 }
 .header .nav a{
-    font-size: 0px;
     padding: 30px;
+    font-family: 'Monsterrat';
+    font-size: 36px;
 }
 
-
-.header .nav a:hover, .header .nav a:active{
-background-image:none;
-font-size: 800%;
-}
