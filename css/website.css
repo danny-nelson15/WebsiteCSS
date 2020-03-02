@@ -21,6 +21,16 @@ h1{
     left: 45%;
     
 }
+.day-box{
+    padding: 10px;
+    margin: 10px;
+
+}
+h1{
+    position: relative;
+    left: 45%;
+    
+}
 
 div.day{
     padding: 5px;
@@ -28,19 +38,21 @@ div.day{
     font-size: large;
 }
     
-.day-box.PREP{
+.PREP{
     border-top-style: solid;
     border-bottom-style: solid;
     border-top-color: rgb(0,0,200,.8);
     border-bottom-color: rgb(0,0,200,.8);
+    overflow:auto;
 }
 
-.day-box.PREP .day{
+.PREP .day{
     float: left;
     padding: 5px;
+    clear: both;
 }
 
-.day-box.PREP .reading-box{
+.PREP .reading-box{
     float: left;
     width: 75%;
     clear: both;
@@ -52,28 +64,184 @@ div.day{
     font-family: sans-serif;
 }
 
-.day-box.PREP .prep-box{
+.PREP .reading-box:empty{
+    display: none;
+}
+
+//.PREP .prep-box{
+    float: left;
+    width: 75%;
     clear: both;
+    padding: 10px;
+    border: 2px solid rgb(30, 144,255);
+    border-radius: 15px;
+    background-color: antiquewhite;
     font-size: large;
     font-family: sans-serif;
 }
 
-.day-box.CURRENT{
+.PREP .prep-box:empty{
+    display: none;
+}
+
+.COMPLETED:nth-child(2n) .lab-box{
+    float: left;
+    width: 75%;
+    clear: both;
+    padding: 10px;
+    border: 2px solid rgb(30, 144,255);
+    border-radius: 15px;
+    background-color: antiquewhite;
+    font-size: large;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+}
+
+.CURRENT{
+    clear: both;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-top-color: rgb(0,0,200,.8);
+    border-bottom-color: rgb(0,0,200,.8);
+    overflow:auto;
+}
+  
+.CURRENT .day{
+    float: right;
+    clear: both;
+    padding: 5px;
+}
+
+.CURRENT .reading-box{
+    float: right;
+    width: 75%;
+    clear: both;
+    border: 2px solid antiquewhite;
+    background-color: rgb(30,144,255,0.75);
+    padding: 10px;
+    border-radius: 15px;
+    font-size: large;
+    font-family: sans-serif;
+}
+
+.CURRENT .reading-box:empty{
+    display: none;
+}
+
+//.CURRENT .prep-box{
+    float: right;
+    width: 75%;
+    clear: both;
+    border: 2px solid antiquewhite;
+    background-color: rgb(30,144,255,0.75);
+    padding: 10px;
+    border-radius: 15px;
+    font-size: large;
+    font-family: sans-serif;
+}
+.CURRENT .prep-box:empty{
+    display: none;
+}
+
+.CURRENT .lab-box{
+    float: right;
+    width: 75%;
+    clear: both;
+    border: 2px solid antiquewhite;
+    background-color: rgb(30,144,255,0.75);
+    padding: 10px;
+    border-radius: 15px;
+    font-size: large;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+}
+
+
+.CURRENT .lab-box:empty{
+    display: none;
+}
+
+
+.COMPLETED:nth-child(2n){
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-top-color: rgb(0,0,200,.8);
+    border-bottom-color: rgb(0,0,200,.8);
+    overflow:auto;
+}
+
+.COMPLETED:nth-child(2n) .day{
+    float: left;
+    clear: both;
+    padding: 5px;
+}
+
+.COMPLETED:nth-child(2n) .reading-box{
+    float: left;
+    width: 75%;
+    clear: both;
+    padding: 10px;
+    border: 2px solid rgb(30, 144,255);
+    border-radius: 15px;
+    background-color: antiquewhite;
+    font-size: large;
+    font-family: sans-serif;
+}
+
+.COMPLETED:nth-child(2n) .reading-box:empty{
+    display: none;
+}
+
+.COMPLETED:nth-child(2n) .prep-box{
+    float: left;
+    width: 75%;
+    clear: both;
+    padding: 10px;
+    border: 2px solid rgb(30, 144,255);
+    border-radius: 15px;
+    background-color: antiquewhite;
+    font-size: large;
+    font-family: sans-serif;
+}
+
+.COMPLETED:nth-child(2n) .prep-box:empty{
+    display: none;
+}
+
+.COMPLETED:nth-child(2n) .lab-box{
+    float: left;
+    width: 75%;
+    clear: both;
+    padding: 10px;
+    border: 2px solid rgb(30, 144,255);
+    border-radius: 15px;
+    background-color: antiquewhite;
+    font-size: large;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+}
+
+.COMPLETED:nth-child(2n) .lab-box:empty{
+    display: none;
+}
+
+.COMPLETED:nth-child(2n+1){
     clear: both;
     border-top-style: solid;
     border-bottom-style: solid;
     border-top-color: rgb(0,0,200,.8);
     height: 185px;
     border-bottom-color: rgb(0,0,200,.8);
+    overflow: auto;
 }
-  
-.day-box.CURRENT .day{
+
+.COMPLETED:nth-child(2n+1) .day{
     float: right;
     clear: both;
     padding: 5px;
 }
 
-.day-box.CURRENT .reading-box{
+.COMPLETED:nth-child(2n+1) .reading-box{
     float: right;
     width: 75%;
     clear: both;
@@ -85,13 +253,11 @@ div.day{
     font-family: sans-serif;
 }
 
-.day-box.CURRENT .prep-box{
-    clear:both;
-    font-size: large;
-    font-family: sans-serif;
+.COMPLETED:nth-child(2n+1) .reading-box:empty{
+    display: none;
 }
 
-.day-box.CURRENT .lab-box{
+.COMPLETED:nth-child(2n+1) .prep-box{
     float: right;
     width: 75%;
     clear: both;
@@ -103,66 +269,11 @@ div.day{
     font-family: sans-serif;
 }
 
-
-
-.day-box.COMPLETED{
-    border-top-style: solid;
-    border-bottom-style: solid;
-    border-top-color: rgb(0,0,200,.8);
-    border-bottom-color: rgb(0,0,200,.8);
-    height: 190px;
+.COMPLETED:nth-child(2n+1) .prep-box:empty{
+    display: none;
 }
 
-.day-box.COMPLETED .day{
-    float: left;
-}
-
-.day-box.COMPLETED .reading-box{
-    float: left;
-    width: 75%;
-    clear: both;
-    padding: 10px;
-    border: 2px solid rgb(30, 144,255);
-    border-radius: 15px;
-    background-color: antiquewhite;
-    font-size: large;
-    font-family: sans-serif;
-}
-
-.day-box.COMPLETED .prep-box{
-    clear: both;
-    font-size: large;
-    font-family: sans-serif;
-}
-
-.day-box.COMPLETED .lab-box{
-    float: left;
-    width: 75%;
-    clear: both;
-    padding: 10px;
-    border: 2px solid rgb(30, 144,255);
-    border-radius: 15px;
-    background-color: antiquewhite;
-    font-size: large;
-    font-family: sans-serif;
-}
-
-
-div:nth-last-child(100){
-    border-top-style: solid;
-    border-bottom-style: solid;
-    border-top-color: rgb(0,0,200,.8);
-    border-bottom-color: rgb(0,0,200,.8);
-}
-
-.day-box.COMPLETED:nth-last-type(even) .day{
-    float: right;
-    clear: both;
-    padding: 5px;
-    color: aliceblue;
-}
-
-div:nth-last-type(100) .reading-box{
+.COMPLETED:nth-child(2n+1) .lab-box{
     float: right;
     width: 75%;
     clear: both;
@@ -172,25 +283,13 @@ div:nth-last-type(100) .reading-box{
     border-radius: 15px;
     font-size: large;
     font-family: sans-serif;
+    margin-bottom: 10px;
 }
 
-div:nth-last-type(100) .prep-box{
-    clear: both;
-    font-size: large;
-    font-family: sans-serif;
+.COMPLETED:nth-child(2n+1) .lab-box:empty{
+    display: none;
 }
 
-div:nth-last-type(100) .lab-box{
-    float: right;
-    width: 75%;
-    clear: both;
-    border: 2px solid antiquewhite;
-    background-color: rgb(30,144,255,0.75);
-    padding: 10px;
-    border-radius: 15px;
-    font-size: large;
-    font-family: sans-serif;
-}
 
 
 div.day-box{
