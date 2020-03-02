@@ -283,7 +283,7 @@ div#special1.special{
 
 
 }
-.header .nav a:hover, .header .nav a:hover {
+.header .nav a:hover, .header .nav a:active {
    height: 25px; 
     
 
