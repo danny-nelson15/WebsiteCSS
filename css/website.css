@@ -411,6 +411,7 @@ opacity: 0;
 
 .special#special1{
 	background-image: url("https://upload.wikimedia.org/wikipedia/en/6/61/Centrecollegeseal.png");
+	background-repeat: no-repeat;
 	position: relative;
 	display: block;
 }
