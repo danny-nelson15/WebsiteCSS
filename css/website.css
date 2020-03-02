@@ -258,10 +258,6 @@ table{
 }
 
 .header .nav a{
-    overflow: hidden;
-    display: none;
-    height: 600px;
-    width: 50px;
  
 }
 .header .partners .person_info a{
@@ -284,6 +280,41 @@ div#special1.special{
     
 
 }
+.nav a:nth-child(0): hover, .nav a:nth-child(0): active{
+   font-size: 36px;
+    background-image: none;
+    
+}   
+.nav a:nth-child(1){
+    background-image: url("https://tse2.mm.bing.net/th?id=OIP.Iqo2Kv7fe0hLz2eNgdBnjQHaHa&pid=Api&P=0&w=300&h=300");
+    background-position: 15% 50%;
+    background-repeat: no-repeat;
+} 
+.nav a:nth-child(2){
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Tokyoship_Home_icon.svg/1024px-Tokyoship_Home_icon.svg.png");
+    background-position: 25% 50%;
+    background-repeat: no-repeat;
+} 
+.nav a:nth-child(3){
+    background-image: url("https://cdn3.iconfinder.com/data/icons/blog-and-social-media-icons/512/Group_of_People-512.png");
+    background-position: 35% 50%;
+    background-repeat: no-repeat;
+}  
+.nav a:nth-child(4){
+    background-image: url("https://cdn3.iconfinder.com/data/icons/aviation-2/500/Aviation_start_sprint-512.png");
+    background-position: 47% 50%;
+    background-repeat: no-repeat;
+} 
+.nav a:nth-child(5){
+    background-image: url("https://image.freepik.com/free-icon/book-opened-symbol_318-56725.jpg");
+    background-position: 57% 50%;
+    background-repeat: no-repeat;
+}  
+.nav a:nth-child(6){
+    background-image: url("https://cdn0.iconfinder.com/data/icons/education-15/500/result-512.png");
+    background-position: 65% 50%;
+    background-repeat: no-repeat;
+}  
 .nav a:nth-child(0){
     background-image: url("https://www.shareicon.net/data/2016/12/12/862833_close_512x512.png");
     background-position: 3% 50%;
