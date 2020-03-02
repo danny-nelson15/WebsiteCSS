@@ -225,10 +225,7 @@ div.day-box{
     border: 10px solid rebeccapurple;
     font-size: 24px;
     font-family: 'Monsterrat';
-    background-image: url("https://upload.wikimedia.org/wikipedia/en/6/61/Centrecollegeseal.png");
-    background-repeat: no-repeat;
-    background-size: 50px;
-    background-position: center;
+   
 
 }
 .header .person_info img{
@@ -266,15 +263,28 @@ color: red;
 }
 .header .nav a{
  padding: 20px;
-  background-image: url("https://upload.wikimedia.org/wikipedia/en/6/61/Centrecollegeseal.png");
+  background-image: url("https://www.shareicon.net/data/2016/12/12/862833_close_512x512.png");
     background-repeat: no-repeat;
     background-size: 50px;
-     background-image: url("https://upload.wikimedia.org/wikipedia/en/6/61/Centrecollegeseal.png");
+     background-image: url("https://tse2.mm.bing.net/th?id=OIP.Iqo2Kv7fe0hLz2eNgdBnjQHaHa&pid=Api&P=0&w=300&h=300");
     background-repeat: no-repeat;
     background-size: 50px;
-     background-image: url("https://upload.wikimedia.org/wikipedia/en/6/61/Centrecollegeseal.png");
+     background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Tokyoship_Home_icon.svg/1024px-Tokyoship_Home_icon.svg.png");
     background-repeat: no-repeat;
     background-size: 50px;
+    background-image: url("https://cdn3.iconfinder.com/data/icons/blog-and-social-media-icons/512/Group_of_People-512.png");
+    background-repeat: no-repeat;
+    background-size: 50px;
+    background-image: url("https://cdn3.iconfinder.com/data/icons/aviation-2/500/Aviation_start_sprint-512.png");
+    background-repeat: no-repeat;
+    background-size: 50px;
+    background-image: url("https://image.freepik.com/free-icon/book-opened-symbol_318-56725.jpg");
+    background-repeat: no-repeat;
+    background-size: 50px;
+    background-image: url("https://cdn0.iconfinder.com/data/icons/education-15/500/result-512.png");
+    background-repeat: no-repeat;
+    background-size: 50px);
+    
    
 }
 .header .partners .person_info a{
