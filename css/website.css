@@ -2,16 +2,15 @@
 
 
 body{
-    background-color: #ffe6b3;
-    
-    
+    background-image: url("http://images.forbes.com/media/lists/colleges/centre-college_200x200.jpg");
+    background-position: 75% 90%;
+    background-repeat: no-repeat;
     
     
 }
 
 .special#special1{
-    background-color: aqua;
-    font-family: cursive;
+    
 }
 .day-box{
     padding: 10px;
