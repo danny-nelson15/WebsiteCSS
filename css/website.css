@@ -259,10 +259,7 @@ table{
     border: 3px solid indianred;
     padding 2px;
 }
-.header .nav a:hover, .header .nav a:active {
-font-size: 150%;
-color: red;
-}
+
 .header .nav a{
  overflow: hidden;
  display: none;
