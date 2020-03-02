@@ -420,4 +420,7 @@ body div{
 
 }
 
+.account_form label{
+	position: bottom left;
 
+}
