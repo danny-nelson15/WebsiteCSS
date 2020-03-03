@@ -437,7 +437,7 @@ body{
 	to { transform:scale(1) } 
 }
 body table tbody tr td .person_info .sound{
-background-image: url("https://upload.wikimedia.org/wikipedia/en/6/61/Centrecollegeseal.png");
+background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Speaker_Icon.svg/600px-Speaker_Icon.svg.png");
 	background-repeat: no-repeat;
 	position: relative;
 	display: block;
