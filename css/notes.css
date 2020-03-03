@@ -1,1 +1,39 @@
+/* Our theme was Social Media.
+This is first noticed with the color scheme and alternating box styles on the home page. 
+The alternating blue and white boxes representing text chat boxes like you would see on a social media site.
+The problems on the home page include the empty prep/reading/lab boxes. 
+We tried to account for this with empty: commands for every box; however, there is white space in the html and the code could not read the html white space.
+We liked the clean look of putting the dates right outside the boxes and keeping the font in an easily readable style. 
+*/
+/*simple very light beige background that makes the other colors on the page pop more and give a relaxing background an app on social media would have as not to draw attention away from other details  */
+
+/*ln16 This displays a very simple sound icon that reads out the person's name */
+
+/*ln28 The day boxes are color-coded to resemble a text or social media conversation */
+
+/*ln324 This navigation bar was styled to look like a social media menu. The icons are background images that are each placed directly
+behind the links to each page. The links are covering the images so when you click on an icon, you are really clicking an invisible
+link on top of the background image. */
+
+/*ln338 Just resized the image to make it look better.*/
+
+/*ln347 The username was adjusted so it was directly beside the image of the person and the border of the username is a lighter shade of the 
+blue used for the text boxes as to fit with the theme of the page. */
+
+/*ln357 This was to organize the table in order to more easily follow where each item was.  */
+
+/*ln382 This makes each navigation link completely clear as to make the illusion that you are clicking on the icon as the link when 
+you are actually clicking on these invisible links. */
+
+/*ln419 This makes the Centre logo in the top right corner a background image that pops on each page making it a Centre-themed social media
+page. */
+
+/*ln431 This makes the entire body zoom in as if it were sent as a message on social media or a text. It is very quick and not distracting. 
+It makes for an asthetically pleasing animation adding to our social media theme. */
+
+/*ln440 This adds the speaker icon to each person's picture on the classmates page. */
+
+/*ln453 This makes it so when you hover over your name, it lights up red, giving a fun little animation that could be present in many 
+social media pages, tying to our theme once again. */
+
 
