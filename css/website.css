@@ -380,8 +380,7 @@ font-size: 150%;
 }
   
 .header .nav a:hover, .header .nav a:active {
-	font-size: 150%;
-	color: red;
+	background-size: 150%;
 	}
 .header .nav a:nth-child(1){
 opacity: 0;
