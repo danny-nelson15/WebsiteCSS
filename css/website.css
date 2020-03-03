@@ -436,4 +436,14 @@ body{
 	from { transform:scale(0) }
 	to { transform:scale(1) } 
 }
+body table tbody tr td .person_info .sound{
+background-image: url("https://upload.wikimedia.org/wikipedia/en/6/61/Centrecollegeseal.png");
+	background-repeat: no-repeat;
+	position: relative;
+	display: block;
+	height: 100px;
+	width: 100px;
+	top: -3em;
+	left -3em;
 
+}
