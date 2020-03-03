@@ -1,5 +1,10 @@
-
-
+/* Our theme was Social Media.
+This is first noticed with the color scheme and alternating box styles on the home page. 
+The alternating blue and white boxes representing text chat boxes like you would see on a social media site.
+The problems on the home page include the empty prep/reading/lab boxes. 
+We tried to account for this with empty: commands for every box; however, there is white space in the html and the code could not read the html white space.
+We liked the clean look of putting the dates right outside the boxes and keeping the font in an easily readable style. 
+*/
 
 body{
     background-color: #fff7e6;
@@ -45,7 +50,11 @@ div.day{
     font-weight: bold;
     font-size: large;
 }
-    
+
+.assignment-label{
+	text-decoration: underline;
+}
+
 .PREP{
 
     overflow:auto;
