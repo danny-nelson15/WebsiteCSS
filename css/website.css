@@ -11,8 +11,10 @@ body{
 	background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Speaker_Icon.svg/600px-Speaker_Icon.svg.png");
 	background-repeat: no-repeat;
 	background-size: 50px;
-	height: 30px;
-	width: 600px;
+	height: 50px;
+	width: 50px;
+	position: relative;
+	top: -3em;
 
 }
 
@@ -420,8 +422,10 @@ opacity: 0;
 	background-repeat: no-repeat;
 	position: relative;
 	display: block;
-	height: 50px;
-	width: 600px;
+	height: 100px;
+	width: 100px;
+	top: -3em;
+	left -3em;
 }
 
 body{
