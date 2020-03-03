@@ -442,8 +442,8 @@ background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/2/21
 	position: relative;
 	display: block;
 	height: 100px;
-	width: 600px;
-	top: -3em;
-	left -3em;
+	width: 30px;
+	top: -2em;
+	background-size: contain;
 
 }
